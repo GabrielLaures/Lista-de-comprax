@@ -1,18 +1,19 @@
+
 import { StyleSheet } from "react-native";
 import { colors } from "../colors";
 
 export const styles = StyleSheet.create({
   container: {
+    height: 70,
     justifyContent: "center",
-    flexDirection: "row",
     alignItems: "center",
-    gap: 4,
-    height: 100,
+    backgroundColor: colors.background,
   },
+
   title: {
     fontSize: colors.titulo,
-    textAlign: "center",
     color: colors.azul500,
     fontWeight: "bold",
   },
 });
+

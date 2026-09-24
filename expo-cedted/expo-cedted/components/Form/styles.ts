@@ -1,33 +1,34 @@
+
 import { StyleSheet } from "react-native";
 import { colors } from "../colors";
 
 export const styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 12,
-    paddingVertical: 10,
-    gap: 8,
+    padding: 10,
   },
+
   label: {},
+
   input: {
+    height: 40,
     backgroundColor: colors.surface,
-    borderRadius: 4,
-    height: 40,
-    paddingVertical: 4,
+    borderWidth: 1,
+    borderColor: colors.border,
     paddingHorizontal: 8,
+    marginBottom: 8,
   },
+
   button: {
-    width: "100%",
     height: 40,
-    flexDirection: "row",
     backgroundColor: colors.azul500,
+    flexDirection: "row",
     justifyContent: "center",
     alignItems: "center",
-    borderRadius: 4,
-    gap: 4,
   },
+
   buttonText: {
     color: colors.surface,
-    textAlign: "center",
     fontSize: 16,
   },
 });
+

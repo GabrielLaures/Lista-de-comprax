@@ -1,23 +1,28 @@
+
 import { StyleSheet } from "react-native";
 import { colors } from "../colors";
 
 export const styles = StyleSheet.create({
   container: {
-    borderTopLeftRadius: 16,
-    borderTopRightRadius: 16,
-    backgroundColor: colors.surface,
     flex: 1,
+    backgroundColor: colors.surface,
     marginTop: 10,
-    paddingTop: 30,
-    paddingHorizontal: 12,
+    padding: 10,
   },
+
   topBar: {
     flexDirection: "row",
     alignItems: "center",
-    gap: 10,
     borderBottomWidth: 1,
-    paddingBottom: 10,
     borderBottomColor: colors.border,
+    paddingBottom: 8,
+    marginBottom: 5,
   },
-  buttonTopBar: { flexDirection: "row", gap: 10 },
+
+  buttonTopBar: {
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 5,
+  },
 });
+
